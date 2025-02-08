@@ -1,0 +1,67 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html,
+body {
+	@apply h-full;
+}
+
+body {
+	@apply bg-black;
+}
+
+.type-display-4 {
+	@apply type-scale-11 md:type-scale-12 lg:type-scale-13;
+	@apply heading-font-color dark:heading-font-color-dark;
+	@apply heading-font-family heading-font-weight;
+}
+.type-display-3 {
+	@apply type-scale-10 md:type-scale-11 lg:type-scale-12;
+	@apply heading-font-color dark:heading-font-color-dark;
+	@apply heading-font-family heading-font-weight;
+}
+.type-display-2 {
+	@apply type-scale-9 md:type-scale-10 lg:type-scale-11;
+	@apply heading-font-color dark:heading-font-color-dark;
+	@apply heading-font-family heading-font-weight;
+}
+.type-display-1 {
+	@apply type-scale-8 md:type-scale-9 lg:type-scale-10;
+	@apply heading-font-color dark:heading-font-color-dark;
+	@apply heading-font-family heading-font-weight;
+}
+.type-headline {
+	@apply type-scale-6 md:type-scale-7 lg:type-scale-8;
+	@apply heading-font-color dark:heading-font-color-dark;
+	@apply heading-font-family heading-font-weight;
+}
+.type-title {
+	@apply type-scale-5 md:type-scale-6 lg:type-scale-7;
+	@apply heading-font-color dark:heading-font-color-dark;
+	@apply heading-font-family heading-font-weight;
+}
+.type-subtitle {
+	@apply type-scale-3 md:type-scale-4 lg:type-scale-5;
+	@apply heading-font-color dark:heading-font-color-dark;
+	@apply heading-font-family;
+	@apply opacity-60;
+}
+/* --- */
+.type-body-1 {
+	@apply type-scale-5 md:type-scale-6 lg:type-scale-7;
+}
+.type-body-2 {
+	@apply type-scale-4 lg:type-scale-5;
+}
+.type-caption {
+	@apply type-scale-2;
+	@apply italic opacity-60;
+}
+.type-menu {
+	@apply type-scale-3;
+	@apply font-bold;
+}
+.type-button {
+	@apply type-scale-3;
+}
