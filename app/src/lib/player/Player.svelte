@@ -6,11 +6,10 @@
 	let player: MediaPlayerElement = $state();
 </script>
 
-<!-- src="https://files.vidstack.io/sprite-fight/720p.mp4" -->
 <media-player
 	class="player"
 	title="Sprite Fight"
-	src="A012C015_170217_ROFK.mov"
+	src="https://files.vidstack.io/sprite-fight/720p.mp4"
 	crossOrigin
 	playsInline
 	bind:this={player}

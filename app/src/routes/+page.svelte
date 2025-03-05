@@ -1,7 +1,9 @@
 <script lang="ts">
 	import Player from '$lib/player/Player.svelte';
+	import Card from '$lib/components/Card.svelte';
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
-<Player></Player>
+<h2 class="h2">Projects</h2>
+<div>
+	<Card title="200 KILO" id="10215"></Card>
+</div>

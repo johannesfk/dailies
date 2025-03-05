@@ -1,3 +1,5 @@
 {
-  "html.customData": ["./app/node_modules/vidstack/vscode.html-data.json"]
+  "html.customData": ["./app/node_modules/vidstack/vscode.html-data.json"],
+  "npm.packageManager": "pnpm",
+  "stylelint.packageManager": "pnpm"
 }

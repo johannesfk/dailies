@@ -5,6 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
+		"dev:host": "vite dev --host",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -17,7 +18,8 @@
 		"db:start": "docker compose up",
 		"db:push": "drizzle-kit push",
 		"db:migrate": "drizzle-kit migrate",
-		"db:studio": "drizzle-kit studio"
+		"db:studio": "drizzle-kit studio",
+		"db:visualize": "pnpx drizzle-lab@latest visualizer --env-path=.env"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.6",
@@ -31,10 +33,14 @@
 		"@tailwindcss/container-queries": "^0.1.1",
 		"@tailwindcss/forms": "^0.5.10",
 		"@tailwindcss/typography": "^0.5.16",
+		"@types/node": "^22.13.1",
+		"@typescript-eslint/eslint-plugin": "^8.23.0",
+		"@typescript-eslint/parser": "^8.23.0",
 		"autoprefixer": "^10.4.20",
 		"drizzle-kit": "^0.30.4",
 		"eslint": "^9.20.0",
 		"eslint-config-prettier": "^10.0.1",
+		"eslint-plugin-drizzle": "^0.2.3",
 		"eslint-plugin-svelte": "^2.46.1",
 		"globals": "^15.14.0",
 		"prettier": "^3.4.2",
