@@ -16,7 +16,7 @@
 		<div class="h-full p-4">
 			{@render children()}
 		</div>
-		<footer class="bg-surface-950 bottom-0 p-4">
+		<footer class="bg-surface-950 bottom-0 p-4 flex flex-row gap-4">
 			<p>User: admin</p>
 			<p class="type-caption">Version: 0.0.1</p>
 			<p class="type-caption">© 2025 Johannes Farmer Knudsen</p>

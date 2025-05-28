@@ -5,5 +5,5 @@
 
 <h2 class="h2">Projects</h2>
 <div>
-	<Card title="200 KILO" id="10215"></Card>
+	<Card title="200 KILO" id="200-kilo"></Card>
 </div>
