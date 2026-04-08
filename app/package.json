@@ -60,7 +60,7 @@
 		"@oslojs/crypto": "^1.0.1",
 		"@oslojs/encoding": "^1.1.0",
 		"@tailwindcss/vite": "^4.1.4",
-		"drizzle-orm": "^0.43.1",
+		"drizzle-orm": "^0.45.2",
 		"media-icons": "^1.1.5",
 		"postgres": "^3.4.5",
 		"vidstack": "^1.12.13"
